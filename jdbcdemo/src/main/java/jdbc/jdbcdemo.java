@@ -60,6 +60,7 @@ public class jdbcdemo {
         statement.close ();
         connection.close ();
         preparedStatement.close ();
+        System.out.println ("test");
     }
 
 }
